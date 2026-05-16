@@ -8,7 +8,7 @@
     - Clear old team member data and insert new committee structure
 
   2. New Committee Structure
-    - Leadership: Chairperson, Secretary, Assistant Secretary
+    - Leadership: Chairperson, Secretary
     - Finance: Head of Finance + members
     - Logistics: Head of Logistics + members
     - PR: Head of PR + members
@@ -46,7 +46,6 @@ INSERT INTO team_members (name, position, department, committee, sort_order) VAL
   -- Leadership
   ('Shihan Maharoof', 'Chairperson', 'Leadership', 'Leadership', 1),
   ('Sanduni Rathnayake', 'Secretary', 'Leadership', 'Leadership', 2),
-  ('B.G.Hashara Senoli Wickramasinghe', 'Assistant Secretary', 'Leadership', 'Leadership', 3),
   -- Finance
   ('Abhimanyu Elanchezhian', 'Head of Finance', 'Finance', 'Finance', 1),
   ('Jayageeth Basnayake', 'Member', 'Finance', 'Finance', 2),
@@ -59,7 +58,7 @@ INSERT INTO team_members (name, position, department, committee, sort_order) VAL
   ('Sisuri Jayawardana', 'Member', 'Logistics', 'Logistics', 4),
   ('Niruja Suresh', 'Member', 'Logistics', 'Logistics', 5),
   -- PR
-  ('Sachithma', 'Head of PR', 'PR', 'PR', 1),
+  ('Ashandth Uthayashankar', 'Head of PR', 'PR', 'PR', 1),
   ('Keshihan Ilamuruganathan', 'Member', 'PR', 'PR', 2),
   ('Harindu Dhanapala', 'Member', 'PR', 'PR', 3),
   ('Akithma Silva', 'Member', 'PR', 'PR', 4);
